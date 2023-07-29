@@ -1,0 +1,94 @@
+.one{
+   text-align: center;
+}
+
+.container{
+   display: flex;
+   flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    gap: 40px;
+}
+
+
+.box {
+   width: 250px;
+   height: 400px;
+   text-align: center;
+   background-color: #ffffff;
+   border: 2px solid #ffffff;
+   border-radius: 10px;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   position: relative; /* Needed for positioning the picture */
+ 
+}
+
+.row {
+   display: flex;
+   gap: 40px; /* Adjust the value to set the desired gap between boxes in a row */
+}
+
+.pi {
+   width: 100%;
+   height: 45%; /* Set the height to 50% to take the upper half of the box */
+   background-image: url('img/WMA.jpg'); /* Replace with your image path */
+   background-size: cover;
+   background-position: center;
+   border-radius: 10px 10px 0 0; /* Rounded corners on the top */
+}
+
+.pic {
+   width: 100%;
+   height: 45%; /* Set the height to 50% to take the upper half of the box */
+   background-image: url('img/G.jpg'); /* Replace with your image path */
+   background-size: cover;
+   background-position: center;
+   border-radius: 10px 10px 0 0; /* Rounded corners on the top */
+}
+
+.pict {
+   width: 100%;
+   height: 45%; /* Set the height to 50% to take the upper half of the box */
+   background-image: url('img/AI.jpg'); /* Replace with your image path */
+   background-size: cover;
+   background-position: center;
+   border-radius: 10px 10px 0 0; /* Rounded corners on the top */
+}
+
+.ti {
+   width: 100%;
+   height: 45%; /* Set the height to 50% to take the upper half of the box */
+   background-image: url('img/W3.jpg'); /* Replace with your image path */
+   background-size: cover;
+   background-position: center;
+   border-radius: 10px 10px 0 0; /* Rounded corners on the top */
+}
+
+.tic {
+   width: 100%;
+   height: 45%; /* Set the height to 50% to take the upper half of the box */
+   background-image: url('img/CYS.jpg'); /* Replace with your image path */
+   background-size: cover;
+   background-position: center;
+   border-radius: 10px 10px 0 0; /* Rounded corners on the top */
+}
+
+.tict {
+   width: 100%;
+   height: 45%; /* Set the height to 50% to take the upper half of the box */
+   background-image: url('img/CC.jpg'); /* Replace with your image path */
+   background-size: cover;
+   background-position: center;
+   border-radius: 10px 10px 0 0; /* Rounded corners on the top */
+}
+.button {
+   display: inline-block;
+    padding: 10px 20px;
+    background-color: #b1b4b6;
+    border: none;
+    border-radius: 5px;
+    color: #000000;
+    cursor: pointer;
+}
